@@ -4,7 +4,7 @@
 This repository contains MicroPython example code and a customized SSD1306 library for this module for use during the first semester of a college level course 'HBO-ICT' at 'The Hague University of Applied Sciences'
 
 I want learning to be fun. I selected this device because of the all the things you can do with it. Low level things like blinking leds or reading the state of a switch are necessary to learn about embedded systems but are not very exciting. With this module you can do wireless things like communicating via 'Bluetooth Low Energy' (BLE) and Wi-Fi and combine it with an Android app, website, or communicate with it via a PC (Python) program.
-To further extend the possibilities with this device, you can put it on a [breadboard](/images/ESP32-c3-oled-breadboard-hc-sr04p_bb.png) and connect ![sensors]()/images/ESP32-c3-oled-breadboard-imu_bb.png) and [actuators](/images/ESP32-c3-oled-breadboard-servo_bb.png) to it.
+To further extend the possibilities with this device, you can put it on a [breadboard](/images/ESP32-c3-oled-breadboard-hc-sr04p_bb.png) and connect [sensors](/images/ESP32-c3-oled-breadboard-imu_bb.png) and [actuators](/images/ESP32-c3-oled-breadboard-servo_bb.png) to it.
 
 You're encouraged to use [Generative AI](/Generative_AI/readme.md) To-The-Max. Let it generate new code from the examples and explain the code (and the software you use) to you.
 
