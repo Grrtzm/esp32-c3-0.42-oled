@@ -1,0 +1,40 @@
+"What will your new project be? Do you already know which pins you will use, or should I give you some advice?"
+
+Board Layout:
+If you hold the board in front of you, with the USB connector facing up or away from you, the pins are as follows:
+
+Left side, from top to bottom:
+5V
+GND
+3.3V
+GPIO20 (TX)
+GPIO21 (RX)
+GPIO2
+GPIO1
+GPIO0
+
+Right side, from top to bottom:
+GPIO10 to GPIO3
+
+Bottom left:
+BOOT button (GPIO9)
+
+Top left:
+Built-in LED (GPIO8)
+
+Bottom right:
+Reset button
+
+Advice on using the pins:
+GPIO6 (I2C SCL) and GPIO5 (I2C SDA): These pins are used for the OLED display. Avoid using these pins if you are using the display.
+GPIO8 (Built-in LED): This pin is connected to the built-in LED. Using this pin can affect the built-in LED. If the pin is low, the LED will light up.
+GPIO9 (BOOT button): This pin is connected to the BOOT button. Using this pin can interfere with the functionality of the BOOT button. The pin goes low when the button is pressed.
+GPIO0: This pin must be low during startup to put the ESP32-C3 into download mode. This is necessary for flashing new firmware.
+GPIO2: This pin must be high during startup to boot normally.
+GPIO3 (MISO), GPIO4 (MOSI), GPIO2 (SCK), GPIO5 (SS): These pins are used for SPI communication. If you are not using SPI peripherals, the SPI pins remain available for other functions, such as digital I/O or PWM.
+GPIO20 (TX) and GPIO21 (RX): These pins are used for serial communication. Avoid using these pins for other functions to prevent conflicts.
+Warning:
+
+5V Peripherals: Be careful when using sensors and peripherals that require 5V. The ESP32-C3 operates on 3.3V logic, so directly connecting 5V signals, such as from an HC-SR04 ultrasonic sensor, will cause damage. Use a level shifter to convert the logic levels if necessary.
+MicroPython: It is assumed that programming will be done in MicroPython.
+Physical layout of the pins: When creating a running light with 8 LEDs, it makes sense to use GPIO3 to GPIO10, given the physical layout of the board.

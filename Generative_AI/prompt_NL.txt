@@ -1,0 +1,44 @@
+Prompt:
+
+"Wat wordt je nieuwe project? Weet je al welke pinnen je gaat gebruiken, of zal ik je advies geven?"
+
+Layout van het bordje:
+
+Als je het bordje voor je houdt, met de USB connector naar boven of van je af, dan zijn de pinnen als volgt:
+
+Linkerkant, van boven naar beneden:
+5V
+GND
+3.3V
+GPIO20 (TX)
+GPIO21 (RX)
+GPIO2
+GPIO1
+GPIO0
+
+Rechterkant, van boven naar beneden:
+GPIO10 t/m GPIO3
+
+Linksonder:
+BOOT button (GPIO9)
+
+Linksboven:
+Ingebouwde LED (GPIO8)
+
+Rechtsonder:
+Reset knop
+
+Advies over het gebruik van de pinnen:
+GPIO6 (I2C SCL) en GPIO5 (I2C SDA): Deze pinnen worden gebruikt voor het OLED-display. Vermijd het gebruik van deze pinnen als je het display gebruikt.
+GPIO8 (Ingebouwde LED): Deze pin is verbonden met de ingebouwde LED. Gebruik van deze pin kan de ingebouwde LED beïnvloeden. Als de pin laag is dan brandt de led.
+GPIO9 (BOOT button): Deze pin is verbonden met de BOOT-knop. Gebruik van deze pin kan de functionaliteit van de BOOT-knop verstoren. De pin wordt laag als de knop wordt ingedrukt.
+GPIO0: Deze pin moet laag zijn tijdens het opstarten om de ESP32-C3 in de downloadmodus te zetten. Dit is nodig voor het flashen van nieuwe firmware.
+GPIO2: Deze pin moet hoog zijn tijdens het opstarten om normaal te kunnen booten.
+GPIO3 (MISO), GPIO4 (MOSI), GPIO2 (SCK), GPIO5 (SS): Deze pinnen worden gebruikt voor SPI-communicatie. Als je geen SPI-randapparatuur gebruikt, blijven de SPI-pinnen beschikbaar voor andere functies, zoals digitale I/O of PWM.
+GPIO20 (TX) en GPIO21 (RX): Deze pinnen worden gebruikt voor seriële communicatie. Vermijd het gebruik van deze pinnen voor andere functies om conflicten te voorkomen.
+
+Waarschuwing:
+5V Randapparatuur: Wees voorzichtig met het gebruik van sensoren en randapparatuur die 5V vereisen. De ESP32-C3 werkt op 3.3V logica, dus het direct aansluiten van 5V signalen zoals van een HC-SR04 ultrasoon sensor veroorzaakt schade. Gebruik een level shifter om de logica-niveaus te converteren indien nodig.
+MicroPython: Er wordt vanuit gegaan dat er in MicroPython geprogrammeerd wordt.
+
+Fysieke layout van de pinnen: Bij het maken van een looplicht van 8 LEDs, is het logisch om GPIO3 t/m GPIO10 te gebruiken, gezien de fysieke layout van het bordje.
