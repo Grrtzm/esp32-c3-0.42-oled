@@ -4,7 +4,7 @@
 This repository contains MicroPython example code and a customized SSD1306 library for this module for use during the first semester of a college level course 'HBO-ICT' at 'The Hague University of Applied Sciences'
 
 I want learning to be fun. I selected this device because of the all the things you can do with it. Low level things like blinking leds or reading the state of a switch are necessary to learn about embedded systems but are not very exciting. With this module you can do wireless things like communicating via 'Bluetooth Low Energy' (BLE) and Wi-Fi and combine it with an Android app, website, or communicate with it via a PC (Python) program.
-To further extend the possibilities with this device, you can put it on a ![breadboard](/images/ESP32-c3-oled-breadboard-hc-sr04p_bb.png) and connect ![sensors]()/images/ESP32-c3-oled-breadboard-imu_bb.png) and ![actuators](/images/ESP32-c3-oled-breadboard-servo_bb.png) to it.
+To further extend the possibilities with this device, you can put it on a [breadboard](/images/ESP32-c3-oled-breadboard-hc-sr04p_bb.png) and connect ![sensors]()/images/ESP32-c3-oled-breadboard-imu_bb.png) and [actuators](/images/ESP32-c3-oled-breadboard-servo_bb.png) to it.
 
 You're encouraged to use [Generative AI](/Generative_AI/readme.md) To-The-Max. Let it generate new code from the examples and explain the code (and the software you use) to you.
 
@@ -37,14 +37,14 @@ If you like 'running men'; here's the tool is used to create it: `\python-window
 ## Wireless stuff
 
 In the **BLE** folder:
-- `BLE_Led_on_off.py` to be used with [`ESP32C3_Led_Control.apk`](\app-related\ESP32C3_Led_Control.apk)
+- `BLE_Led_on_off.py` to be used with [`ESP32C3_Led_Control.apk`](/app-related/ESP32C3_Led_Control.apk)
 	- Demonstrates the use of an app which only **writes** data to the ESP32 via BLE
-- `BLE_Read_Button.py` to be used with [`ESP32C3_Read_Button.apk`](\app-related\ESP32C3_Read_Button.apk)
+- `BLE_Read_Button.py` to be used with [`ESP32C3_Read_Button.apk`](/app-related/ESP32C3_Read_Button.apk)
 	- Demonstrates the use of an app which only **reads** data from the ESP32 via BLE
-- `BLE_Read_Write_Led_PWM.py` to be used with [`ESP32C3_RW_Led_PWM.apk`](\app-related\ESP32C3_RW_Led_PWM.apk)
+- `BLE_Read_Write_Led_PWM.py` to be used with [`ESP32C3_RW_Led_PWM.apk`](/app-related/ESP32C3_RW_Led_PWM.apk)
 	- Demonstrates the use of an app which **reads and writes** data to and from the ESP32 via BLE
 
-If you want to build your own MIT App Inventor app, take a look in the \app-related folder.
+If you want to build your own MIT App Inventor app, take a look in the /app-related folder.
 
 In the **IP** folder:
 - `AP_webserver.py'`: 	Wi-Fi access point and webserver at the same time
@@ -56,5 +56,5 @@ In the **ESP_NOW** folder:
 
 ## For Debugging #
 
-- `\i2c\i2c_scanner.py`: helps you find i2c devices connected to the ESP32 (if you connected them correctly).
+- `/i2c/i2c_scanner.py`: helps you find i2c sensors and devices connected to the ESP32 (if you connected them correctly).
 
