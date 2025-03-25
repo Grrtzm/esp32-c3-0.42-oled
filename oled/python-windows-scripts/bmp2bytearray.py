@@ -1,3 +1,8 @@
+# This program converts all *.bmp files in the current directory to bytearrays.
+# You can use these bytearrays to create images for the oled.
+# make sure the image resolution matches that of the oled display (72 x 40)
+# Tip: Keep them a bit smaller; a width of 70 works for sure.
+
 from PIL import Image
 import os
 

@@ -1,3 +1,8 @@
+# This program is meant to work with "BLE_Led_on_off.py" running on the ESP32-C3
+# Please note: You have to find out- and fill in the Bluetooth LE address of your ESP32-C3
+# "target_address" is in fact the MAC address; it is the Wi-Fi MAC address +2
+# (you need to add the value 2 to the last byte of the Wi-Fi MAC address; Ask your favorite AI for this)
+
 import asyncio
 from bleak import BleakClient
 

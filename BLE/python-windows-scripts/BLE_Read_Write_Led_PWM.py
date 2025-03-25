@@ -1,3 +1,5 @@
+# This program is meant to work with "BLE_Read_Write_Led_PWM.py" running on the ESP32-C3
+
 import asyncio
 from bleak import BleakClient, BleakScanner
 
