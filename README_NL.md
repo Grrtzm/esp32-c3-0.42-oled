@@ -8,6 +8,8 @@ Deze repository bevat MicroPython voorbeeldcode en een aangepaste SSD1306-biblio
 Ik wil dat leren leuk is. Ik heb dit apparaat gekozen vanwege de vele mogelijkheden. Laag niveau activiteiten zoals het laten knipperen van leds of het uitlezen van de status van een schakelaar zijn noodzakelijk om embedded systemen te leren begrijpen, maar zijn niet erg spannend. Met deze module kun je draadloze activiteiten uitvoeren zoals communiceren via 'Bluetooth Low Energy' (BLE) en Wi-Fi, en dit combineren met een Android-app, website of communiceren met een pc (Python-programma).
 Om de mogelijkheden verder uit te breiden, kun je het op een [breadboard](/images/ESP32-c3-oled-breadboard-hc-sr04p_bb.png) plaatsen en [sensoren](/images/ESP32-c3-oled-breadboard-imu_bb.png) en [actuatoren](/images/ESP32-c3-oled-breadboard-servo_bb.png) aansluiten.
 
+Alle (Micro)Python code in deze repository, inclusief de oled library is met AI gegenereerd met aanpassen door mij.
+
 ## Hoe gebruik je deze repository?
 Installeer eerst [Thonny](/manual/Install_Thonny_[nl].pdf). Dit heb je nodig om alle voorbeelden uit te proberen. Laat je inspireren en gebruik de meegeleverde AI-prompt.
 Je wordt aangemoedigd om [Generatieve AI](/Generative_AI/readme.md) maximaal te gebruiken. Laat AI nieuwe code genereren op basis van de voorbeelden en de code (en software) aan je uitleggen.
