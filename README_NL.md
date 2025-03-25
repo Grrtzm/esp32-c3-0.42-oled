@@ -38,7 +38,7 @@ Bekijk ook de **oled** map:
 
 (Vergeet niet de oled-driver naar de ESP32 te kopiëren.)
 
-Als je van 'running men' houdt, hier is de tool die ik gebruikte om het te maken: `\python-windows-scripts\bmp2bytearray.py`
+Als je van 'running men' houdt, hier is de tool die ik gebruikte om het te maken: `/oled/python-windows-scripts/bmp2bytearray.py`
 
 ## Draadloze communicatie
 

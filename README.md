@@ -38,7 +38,7 @@ Take a look in the **oled** folder:
 
 (Don't forget to copy the oled driver to the ESP32).
 
-If you like 'running men'; here's the tool is used to create it: `\python-windows-scripts\bmp2bytearray.py`
+If you like 'running men'; here's the tool is used to create it: `/oled/python-windows-scripts/bmp2bytearray.py`
 
 ## Wireless stuff
 
