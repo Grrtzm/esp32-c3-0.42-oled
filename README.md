@@ -1,4 +1,6 @@
-# esp32-c3-0.42-oled
+# ESP32-C3-0.42-oled
+[Klik hier voor de Nederlandse versie van deze uitleg](README_NL.md)
+
 ![ESP32-C3 with 0.42" oled display](/images/esp32-c3-0.42-oled-pinout.png)
 
 This repository contains MicroPython example code and a customized SSD1306 library for this module for use during the first semester of a college level course 'HBO-ICT' at 'The Hague University of Applied Sciences'
@@ -7,13 +9,13 @@ I want learning to be fun. I selected this device because of the all the things 
 To further extend the possibilities with this device, you can put it on a [breadboard](/images/ESP32-c3-oled-breadboard-hc-sr04p_bb.png) and connect [sensors](/images/ESP32-c3-oled-breadboard-imu_bb.png) and [actuators](/images/ESP32-c3-oled-breadboard-servo_bb.png) to it.
 
 ## How to use this repository?
-Try out all the examples. When you get inspired, use the provided AI prompt. 
+First [install Thonny](/manual/Install_Thonny_[en].pdf). You need this to try out all the examples. When you get inspired, use the provided AI prompt. 
 You're encouraged to use [Generative AI](/Generative_AI/readme.md) To-The-Max. Let it generate new code from the examples and explain the code (and the software you use) to you.
 
 ## I recommend using the following software with the code in this repository:
 
  - Required: [Thonny](https://thonny.org/) for editing and running the MicroPython code on the ESP32-C3.
-	- Use this [Thonny setup guide](\basics\Install_Thonny_[en].pdf) to install and configure Thonny and the ESP32-C3 for MicroPython.
+	- Use this [Thonny setup guide](/manual/Install_Thonny_[en].pdf) to install and configure Thonny and the ESP32-C3 for MicroPython.
  - Optional: [Anaconda](https://anaconda.org/) for running Python and maybe use Bluetooth (if your PC supports this) on a (Windows) PC, a bit like what you can do with a smartphone app.
 	- I'm not going to explain how to use or install this, but make sure you [create an environment](https://www.anaconda.com/docs/tools/working-with-conda/environments) where you work on your ESP32 related projects.
  - [MIT App Inventor](https://appinventor.mit.edu/) for creating Android or IOS apps (combined with the use of 'Bluetooth Low Energy' (BLE) ).
