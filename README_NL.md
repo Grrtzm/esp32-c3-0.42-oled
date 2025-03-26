@@ -3,12 +3,14 @@
 
 ![ESP32-C3 met 0.42" oled-display](/images/esp32-c3-0.42-oled-pinout.png)
 
-Deze repository bevat MicroPython voorbeeldcode en een aangepaste SSD1306-bibliotheek voor dit module, bedoeld voor gebruik tijdens het eerste semester van een hbo-opleiding 'HBO-ICT' aan De Haagse Hogeschool.
+Deze repository bevat MicroPython voorbeeldcode en een aangepaste SSD1306-bibliotheek voor deze module, bedoeld voor gebruik tijdens het eerste semester van de opleiding 'HBO-ICT' aan De Haagse Hogeschool.
 
-Ik wil dat leren leuk is. Ik heb dit apparaat gekozen vanwege de vele mogelijkheden. Laag niveau activiteiten zoals het laten knipperen van leds of het uitlezen van de status van een schakelaar zijn noodzakelijk om embedded systemen te leren begrijpen, maar zijn niet erg spannend. Met deze module kun je draadloze activiteiten uitvoeren zoals communiceren via 'Bluetooth Low Energy' (BLE) en Wi-Fi, en dit combineren met een Android-app, website of communiceren met een pc (Python-programma).
+Ik wil dat leren leuk is. Ik heb dit apparaat gekozen vanwege de vele mogelijkheden. Met deze 'Internet of Things' (IoT) module kun je draadloze activiteiten uitvoeren zoals communiceren via 'Bluetooth Low Energy' (BLE) en Wi-Fi, en dit combineren met een Android-app, website of communiceren met een pc (Python-programma's).
 Om de mogelijkheden verder uit te breiden, kun je het op een [breadboard](/images/ESP32-c3-oled-breadboard-hc-sr04p_bb.png) plaatsen en [sensoren](/images/ESP32-c3-oled-breadboard-imu_bb.png) en [actuatoren](/images/ESP32-c3-oled-breadboard-servo_bb.png) aansluiten.
 
-Alle (Micro)Python code in deze repository, inclusief de oled library is met AI gegenereerd met aanpassen door mij.
+Pas nadat je kennis gemaakt hebt met wat je er mee kunt gaan we de diepte in om begrip te krijgen van de werking van microcontrollers. Denk dan aan activiteiten op hardware niveau zoals het laten knipperen van leds of het uitlezen van de status van een schakelaar of sensoren.
+
+Alle (Micro)Python code in deze repository, inclusief de oled library is met AI gegenereerd met wat aanpassingen van mij.
 
 ## Hoe gebruik je deze repository?
 Installeer eerst [Thonny](/manual/Install_Thonny_[nl].pdf). Dit heb je nodig om alle voorbeelden uit te proberen. Laat je inspireren en gebruik de meegeleverde AI-prompt.
@@ -17,7 +19,7 @@ Je wordt aangemoedigd om [Generatieve AI](/Generative_AI/readme.md) maximaal te 
 ## Aanbevolen software voor gebruik met deze repository:
 
  - Vereist: [Thonny](https://thonny.org/) voor het bewerken en uitvoeren van MicroPython-code op de ESP32-C3.
-	- Gebruik deze [Thonny installatiehandleiding](/manual/Install_Thonny_[nl].pdf) om Thonny en de ESP32-C3 voor MicroPython te installeren en configureren.
+	- Gebruik deze [Thonny installatiehandleiding](/manual/Install_Thonny_NL.pdf) om Thonny en de ESP32-C3 voor MicroPython te installeren en configureren.
  - Optioneel: [Anaconda](https://anaconda.org/) voor het uitvoeren van Python en mogelijk het gebruik van Bluetooth (als je pc dit ondersteunt) op een Windows-pc, vergelijkbaar met wat je met een smartphone-app kunt doen.
 	- Ik leg niet uit hoe je dit installeert, maar zorg ervoor dat je een [omgeving aanmaakt](https://www.anaconda.com/docs/tools/working-with-conda/environments) voor je ESP32-projecten.
  - [MIT App Inventor](https://appinventor.mit.edu/) voor het maken van Android- of IOS-apps (in combinatie met BLE).

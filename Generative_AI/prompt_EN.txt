@@ -1,5 +1,7 @@
 "What will your new project be? Do you already know which pins you will use, or should I give you some advice?"
 
+We use an ESP32-C3 with a 0.42 inch oled display.
+
 Board Layout:
 If you hold the board in front of you, with the USB connector facing up or away from you, the pins are as follows:
 

@@ -1,6 +1,6 @@
 # Use of Generative AI (ChatGPT etc)
 
-In this folder, you will find a prompt (Dutch as well as English) that describes what the ESP32-C3 with the OLED screen can do and what its limitations are. Open your favorite AI tool. Start a new conversation and paste the contents of the text file —the prompt— into the conversation. Start with this every time you start a new conversation. Your AI will then know the capabilities and limitations.
+In this folder, you will find a prompt (in [Dutch](prompt_NL.txt) as well as in [English](prompt_EN.txt) that describes what the ESP32-C3 with the OLED screen can do and what its limitations are. Open your favorite AI tool; [ChatGPT](https://chatgpt.com/), [Copilot](https://copilot.microsoft.com/) or [one from duck.ai](https://duckduckgo.com/?q=DuckDuckGo+AI+Chat&ia=chat&duckai=1&atb=v369-1). Start a new conversation and paste the contents of the text file —the prompt— into the conversation. Start with this every time you start a new conversation. Your AI will then know the capabilities and limitations of your projects.
 
 Here are some tips on how to effectively use ChatGPT or another generative AI for this purpose:
 
