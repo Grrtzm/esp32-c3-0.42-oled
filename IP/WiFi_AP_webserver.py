@@ -8,6 +8,7 @@
 # Please note: Some of the ESP32-C3 boards have a poor quality Wi-Fi antenna (the red block),
 # which makes connecting to Wi-Fi hard or sometimes impossible.
 # Touching the antenna might help. Pressing the reset button might help.
+# Better yet: solder an antenna wire of 31mm length to the "reset button" side of the red block.
 
 import network
 import socket

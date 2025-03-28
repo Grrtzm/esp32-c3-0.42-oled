@@ -62,7 +62,13 @@ In the **ESP_NOW** folder:
 
 - `ESP_NOW`: broadcast to many devices and receive at the same time
 
-## For Debugging #
+## Debugging I2C devices
 
 - `/i2c/i2c_scanner.py`: helps you find i2c sensors and devices connected to the ESP32 (if you connected them correctly).
 
+## Added an antenna
+
+I have other ESP-C3 mini boards without an OLED display, and they worked fine with Wi-Fi. However, these OLED versions are unable to connect to Wi-Fi. Bluetooth LE and ESP-NOW work fine, but Wi-Fi does not. You can scan for and list Wi-Fi networks, but regardless of signal strength, connecting to Wi-Fi is impossible.
+I spent a lot of time debugging Wi-Fi reception, as you can see in the [WiFi_Client_webserver.py](/IP/WiFi_Client_webserver.py) example. Some Reddit posts confirmed my suspicion about these boards. I made a small modification by adding this antenna, and now they work fine.
+Make sure to cut the wire to exactly 31mm—that's 1/4 of the wavelength of the 2.4 GHz Wi-Fi frequency. Solder it in exactly the same position as shown in the image.
+![ESP32-C3 oled with antenna]{/images/ESP32-C3_with_antenna.png)

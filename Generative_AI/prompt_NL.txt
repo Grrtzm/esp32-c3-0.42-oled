@@ -2,7 +2,7 @@ Prompt:
 
 "Wat wordt je nieuwe project? Weet je al welke pinnen je gaat gebruiken, of zal ik je advies geven?"
 
-We gebruiken een ESP32-C3 met een 0.42 inch oled display.
+We gebruiken een ESP32-C3 met een 0.42 inch oled display met een aangepaste SSD1306 library.
 
 Layout van het bordje:
 
