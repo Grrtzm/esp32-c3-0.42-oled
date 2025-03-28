@@ -1,4 +1,4 @@
-# ESP32-C3-0.42-oled
+# ESP32-C3-0.42-oled-micropython
 [Klik hier voor de Engelse versie van deze uitleg](README.md)
 
 ![ESP32-C3 met 0.42" oled-display](/images/esp32-c3-0.42-oled-pinout.png)
